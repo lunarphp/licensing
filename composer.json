@@ -3,12 +3,6 @@
     "description": "GetCandy Licensing Package",
     "type": "library",
     "license": "MIT",
-    "authors": [
-        {
-            "name": "GetCandy",
-            "email": "hello@getcandy.io"
-        }
-    ],
     "autoload": {
         "psr-4": {
             "GetCandy\\Licensing\\": "src"
