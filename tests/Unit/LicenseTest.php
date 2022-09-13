@@ -1,10 +1,10 @@
 <?php
 
-namespace GetCandy\Licensing\Tests\Unit;
+namespace Lunar\Licensing\Tests\Unit;
 
-use GetCandy\Licensing\License;
-use GetCandy\Licensing\LicenseManager;
-use GetCandy\Licensing\Tests\TestCase;
+use Lunar\Licensing\License;
+use Lunar\Licensing\LicenseManager;
+use Lunar\Licensing\Tests\TestCase;
 use Illuminate\Support\Facades\Http;
 
 /**
