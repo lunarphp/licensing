@@ -1,22 +1,22 @@
 {
-    "name": "lunarphp/licensing",
-    "description": "Lunar Licensing Package",
+    "name": "getcandy/licensing",
+    "description": "GetCandy Licensing Package",
     "type": "library",
     "license": "MIT",
     "autoload": {
         "psr-4": {
-            "Lunar\\Licensing\\": "src"
+            "GetCandy\\Licensing\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Lunar\\Licensing\\Tests\\": "tests"
+            "GetCandy\\Licensing\\Tests\\": "tests"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Lunar\\Licensing\\LicensingServiceProvider"
+                "GetCandy\\Licensing\\LicensingServiceProvider"
             ]
         }
     },

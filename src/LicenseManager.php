@@ -1,12 +1,12 @@
 <?php
 
-namespace Lunar\Licensing;
+namespace GetCandy\Licensing;
 
 use Illuminate\Support\Facades\Http;
 
 class LicenseManager
 {
-    protected static $host = 'https://lunarphp.io';
+    protected static $host = 'https://getcandy.io';
 
     public static function fetch($package)
     {
@@ -15,8 +15,8 @@ class LicenseManager
                 'id' => '123456',
                 'licensed' => (bool) ($package['license'] ?? false),
                 'verified' => true,
-                'url' => 'https://lunarphp.io/getcandy/foo-bar',
-                'seller' => 'Lunar',
+                'url' => 'https://getcandy.io/getcandy/foo-bar',
+                'seller' => 'GetCandy',
                 'latestVersion' => '1.2.0',
                 'domain' => 'http://myaddon.com',
             ], 200),
@@ -40,7 +40,7 @@ class LicenseManager
                 'licensed' => false,
                 'verified' => true,
                 'slug' => 'foo-bar',
-                'seller' => 'Lunar',
+                'seller' => 'GetCandy',
                 'current_version' => '1.0.0',
                 'latest_version' => '1.2.0',
                 'domain' => 'http://myaddon.com',

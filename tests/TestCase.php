@@ -1,8 +1,8 @@
 <?php
 
-namespace Lunar\Licensing\Tests;
+namespace GetCandy\Licensing\Tests;
 
-use Lunar\Licensing\LicensingServiceProvider;
+use GetCandy\Licensing\LicensingServiceProvider;
 
 class TestCase extends \Orchestra\Testbench\TestCase
 {

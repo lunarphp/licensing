@@ -1,6 +1,6 @@
 <?php
 
-namespace Lunar\Licensing;
+namespace GetCandy\Licensing;
 
 use Illuminate\Support\Str;
 

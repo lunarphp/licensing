@@ -1,6 +1,6 @@
 <?php
 
-namespace Lunar\Licensing;
+namespace GetCandy\Licensing;
 
 class Utils
 {
